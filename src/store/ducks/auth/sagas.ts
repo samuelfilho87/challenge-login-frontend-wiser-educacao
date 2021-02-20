@@ -2,7 +2,7 @@ import { call, put } from 'redux-saga/effects';
 import api from '../../../services/api';
 
 import { Auth } from './types';
-import { loginSuccess, loginFailure, logoutSuccess } from './actions';
+import { loginSuccess, loginFailure, logoutSuccess, loginRequest } from './actions';
 
 interface User {
   id: number;
@@ -16,7 +16,7 @@ interface Request {
   password: string;
 }
 
-export function* login({ payload }) {
+export function* login({ payload}: ReturnType<typeof loginRequest>) {
   try {
     const { email, password }: Request = payload;
     

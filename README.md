@@ -41,6 +41,8 @@ Segue dados de alguns usuários **fakes** para testar a aplicação:
 ### Usuário #3:
 - E-mail: Doris85@yahoo.com,
 - Senha: 1olmEo7G8Kv34BT
+## Deploy na Vercel
+https://challenge-login-frontend-wiser-educacao.vercel.app/
 
 ## Prints - Desktop
 <img src="./prints/desktop-min.png" width="800">
@@ -52,6 +54,3 @@ Segue dados de alguns usuários **fakes** para testar a aplicação:
 
 ## Print - Mobile
 <img src="./prints/mobile-min.png" width="376">
-
-## Deploy na Vercel
-https://challenge-login-frontend-wiser-educacao.vercel.app/

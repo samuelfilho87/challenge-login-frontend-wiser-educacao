@@ -1,8 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Challenge Login - Frontend - Wiser Educação
+## Objetivo
+Criar uma aplicação de login, ou seja, acesso de um usuário. Com funcionamento simples: ao preencher e-mail e senha deverá ser mostrado um alerta com
+sucesso ou erro. Também ter uma validação de preenchimento correto em campo de texto.
+## Tecnologias obrigatórias para o desafio
+- API, com [Mock API](https://www.mockapi.io​)
+- Typescript
+- React
+- Hooks
+- NextJS
+- Styled Components
+- Redux & Redux Saga
+- Axios
+## Design
+[Layout](https://www.figma.com/file/zC98pMR61WhKX5joTKTMr6/Teste-Wiser?node-id=3%3A4)
+## Instalação
+Clone ou faça download do repositório para o seu computador.
 
-## Getting Started
-
-First, run the development server:
+Abra o terminal dentro do diretório do projeto e utilize um dos seguintes comandos:
 
 ```bash
 npm run dev
@@ -10,25 +24,33 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Como usar
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Segue dados de alguns usuários **fakes** para testar a aplicação:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Usuário #1:
+- E-mail: Erik.Kihn7@hotmail.com
+- Senha: WhUMwQeJZgeCWbu
 
-## Learn More
+### Usuário #2:
+- E-mail: Kayli60@hotmail.com
+- Senha: gszm0YeIuuUptlf
 
-To learn more about Next.js, take a look at the following resources:
+### Usuário #3:
+- E-mail: Doris85@yahoo.com,
+- Senha: 1olmEo7G8Kv34BT
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Prints - Desktop
+<img src="./prints/desktop-min.png" width="800">
+<img src="./prints/desktop2-min.png" width="800">
+<img src="./prints/desktop3-min.png" width="800">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Print - Tablet
+<img src="./prints/tablet-min.png" width="800">
 
-## Deploy on Vercel
+## Print - Mobile
+<img src="./prints/mobile-min.png" width="376">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deploy na Vercel

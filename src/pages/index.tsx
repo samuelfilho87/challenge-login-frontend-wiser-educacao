@@ -121,7 +121,7 @@ const Home: React.FC<Props> = (props: Props) => {
 
             <FieldGroup>
               <label htmlFor="email">E-mail</label>
-              <Input name="email" type="email" id="email" placeholder="exemplo@mail.com" authentication_failed={error} />
+              <Input name="email" id="email" placeholder="exemplo@mail.com" authentication_failed={error} />
             </FieldGroup>
 
             <FieldGroup>

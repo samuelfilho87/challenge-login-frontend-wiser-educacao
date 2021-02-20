@@ -74,7 +74,7 @@ const EsqueciSenha: React.FC = () => {
 
             <FieldGroup>
               <label htmlFor="email">E-mail</label>
-              <Input name="email" type="email" id="email" placeholder="exemplo@mail.com" />
+              <Input name="email" id="email" placeholder="exemplo@mail.com" />
             </FieldGroup>
 
             <Button type="submit" data-testid="submit" name="submit">{enviando ? 'Enviando...' : 'Enviar'}</Button>

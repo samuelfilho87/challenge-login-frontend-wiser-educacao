@@ -54,3 +54,4 @@ Segue dados de alguns usuários **fakes** para testar a aplicação:
 <img src="./prints/mobile-min.png" width="376">
 
 ## Deploy na Vercel
+https://challenge-login-frontend-wiser-educacao.vercel.app/
